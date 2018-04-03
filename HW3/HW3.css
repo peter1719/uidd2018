@@ -1,11 +1,41 @@
+body
+{
+    padding: 1%;
+    margin: 0%;
+    width: 1000px;
+    height: 300px;
+    background-image: url("pic/sun.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
     background-color: DodgerBlue;
-    width: 700px;
+    width: 600px;
+    position: absolute;
+    top : 60%;
+    left: 25%
   }
-  
-.flex-container > #a { 
+  #demo
+{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    height: 75px;
+}
+
+.play
+{
+    position: absolute;
+    top : 60%;
+    left: 10%
+}
+
+
+.flex-container > #d1 { 
     background-image: url("pic/a.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -14,9 +44,8 @@
     margin: 10px;
     text-align: center;
     height: 75px;
-    font-size: 30px;
 }
-.flex-container > #s {
+.flex-container > #d2 {
     background-image: url("pic/s.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -25,9 +54,8 @@
     margin: 10px;
     text-align: center;
     height: 75px;
-    font-size: 30px;
 }
-.flex-container > #d {
+.flex-container > #d3 {
     background-image: url("pic/d.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -36,9 +64,8 @@
     margin: 10px;
     text-align: center;
     height: 75px;
-    font-size: 30px;
 }
-.flex-container > #space {
+.flex-container > #d4 {
     background-image: url("pic/space.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -47,10 +74,22 @@
     margin: 10px;
     text-align: center;
     height: 75px;
-    font-size: 30px;
 }
-.flex-container > #w {
+.flex-container > #d5 {
     background-image: url("pic/w.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    height: 75px;
+}
+
+.gold
+{
+    display: inline-block;
+    background-image: url("pic/gold.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
@@ -60,3 +99,4 @@
     height: 75px;
     font-size: 30px;
 }
+
