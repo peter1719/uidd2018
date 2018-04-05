@@ -16,11 +16,14 @@ function order(o,limit)
     if(o>limit)
     {
         o = 0;  
-        score+=5;
+        score+=10;
         random();        
         $(".flex-container").remove();
         document.getElementById("demo").innerHTML = "Score: " + score;
         add();       
+        animation1($(".man1"));
+        animation1($(".man2"));
+        animation1($(".man3"));
     }
     counter = o;
 }
@@ -62,6 +65,15 @@ function Presskey(event,data,size,i)// w:119/87      s:115/83   a:97/65    d:100
         $(id).css("background-image","url(pic/spacey.png)");
         order(i,series_size-1);
     } 
+    else
+    {
+        counter = 0;  
+        score-=1;
+        random();        
+        $(".flex-container").remove();
+        document.getElementById("demo").innerHTML = "Score: " + score;
+        add(); 
+    }
 }
 
 function random()
@@ -143,3 +155,11 @@ function fade(s)
      document.getElementById("demo").innerHTML += series[i] ;
     }
 }*/
+function animation1(name){
+   // var div=$("div");
+    div = name;  
+    div.animate({top:'-=100px'},"fast");
+    div.animate({top:'+=100px'},"fast");
+    div.animate({top:'-=100px'},"fast");
+    div.animate({top:'+=100px'},"fast");
+  }

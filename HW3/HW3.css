@@ -143,7 +143,7 @@ body
     width: 400px;
     height: 400px;
     position: absolute;
-    top : 20%;
+    top : 13%;
     left: 0%;
     z-index: 0;
     background-repeat: no-repeat;
@@ -160,13 +160,7 @@ body
     top : 75%;
     left: 25%
   }
-  #demo
-{
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    height: 75px;
-}
+
 
 
 
@@ -242,7 +236,13 @@ body
 {
     position: absolute;
     top : 85%;
-    left: 15%;
-    height: 10px;  
+    left: 8%;
+    height: 10px;    
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    height: 75px;
+     font-size: 2em;
+    
 }
 
