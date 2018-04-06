@@ -14,7 +14,7 @@ body
     width: 1000px;
     height: 500px;
     position: absolute;
-    left: 15%;
+    left: 150px;
     background-repeat: no-repeat;
     background-image: url("pic/sun.png");
     background-size:contain;
@@ -27,7 +27,7 @@ body
     width: 1000px;
     height: 270px;
     position: absolute;
-    top : 54%;
+    top : 380px;
     left: 0%;
     z-index: -1;
     background-repeat: no-repeat;
@@ -42,8 +42,8 @@ body
     width: 250px;
     height: 270px;
     position: absolute;
-    top : 57%;
-    left: 78%;
+    top : 400px;
+    left: 1050px;
     z-index: 0;
     background-repeat: no-repeat;
     background-size:cover;
@@ -57,8 +57,8 @@ body
     width: 250px;
     height: 270px;
     position: absolute;
-    top : 56%;
-    left: 70%;
+    top : 394px;
+    left: 950px;
     z-index: 0;
     background-repeat: no-repeat;
     background-size:cover;
@@ -72,8 +72,8 @@ body
     width: 100px;
     height: 100px;
     position: absolute;
-    top : 45%;
-    left: 80%;
+    top : 330px;
+    left: 1070px;
     z-index: 0;
     background-repeat: no-repeat;
     background-image: url("pic/man.png");
@@ -86,8 +86,8 @@ body
     width: 100px;
     height: 100px;
     position: absolute;
-    top : 45%;
-    left: 72%;
+    top : 335px;
+    left: 1130px;
     z-index: 0;
     background-repeat: no-repeat;
     background-image: url("pic/man.png");
@@ -100,8 +100,8 @@ body
     width: 100px;
     height: 100px;
     position: absolute;
-    top : 47%;
-    left: 87%;
+    top : 335px;
+    left: 1000px;
     z-index: 0;
     background-repeat: no-repeat;
     background-image: url("pic/man.png");
@@ -115,7 +115,7 @@ body
     height: 200px;
     position: absolute;
     top : 0px;
-    left: 40%;
+    left: 420px;
     z-index: -3;
     background-repeat: no-repeat;
     background-image: url("pic/sss.png");
@@ -129,8 +129,8 @@ body
     width: 700px;
     height: 300px;
     position: absolute;
-    top : 25%;
-    left: 25%;
+    top : 180px;
+    left: 340px;
     z-index: -2;
     background-repeat: no-repeat;
     background-image: url("pic/build.png");
@@ -143,7 +143,7 @@ body
     width: 400px;
     height: 400px;
     position: absolute;
-    top : 13%;
+    top : 125px;
     left: 0%;
     z-index: 0;
     background-repeat: no-repeat;
@@ -157,8 +157,8 @@ body
     background-color: rgba(141, 111, 62, 0.808);
     width: 600px;
     position: absolute;
-    top : 75%;
-    left: 25%
+    top : 500px;
+    left: 400px
   }
 
 
@@ -229,14 +229,14 @@ body
     width: 100px;
     font-size: 30px;
     position: absolute;
-    top : 70%;
-    left: 15%;
+    top : 470px;
+    left: 250px;
 }
 #demo
 {
     position: absolute;
-    top : 85%;
-    left: 8%;
+    top : 570px;
+    left: 200px;
     height: 10px;    
     width: 200px;
     margin: 10px;
