@@ -4,7 +4,7 @@ var series_size = 5;
 var on_off = 1;
 
 $(document).ready(function(){
-    $("body").keypress(function(event){
+    $("body").keydown(function(event){
        Presskey(event,series,series_size,counter);
        
     });
@@ -31,9 +31,9 @@ function order(o,limit)
 
 function Presskey(event,data,size,i)// w:119/87      s:115/83   a:97/65    d:100/68  space:32 // Arrow...Down Up Right Left ," "
  {
-    var x = event.which || event.keyCode;
+    var x = event.which;
 
-    //document.getElementById("demo").innerHTML = "The Unicode value is: " + x;
+   // document.getElementById("demo").innerHTML = "The Unicode value is: " + x;
    var id = "#d" + (i+1);
    //document.getElementById("demo").innerHTML = id;
     if((x == 97 || x == 65 || x==37) && data[i]=="a")
